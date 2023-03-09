@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * _strpbrk - function locates the first occurrence in the string s of any of the bytes of string accept
- *
+ * _strpbrk - function locates the first occurrence in
+ * string s of any of the bytes of string accept
  * @s: string to be searched
  * @accept: strings that will be searched for
  *
