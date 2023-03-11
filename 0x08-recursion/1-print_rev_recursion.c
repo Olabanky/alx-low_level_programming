@@ -1,6 +1,6 @@
 #include "main.h"
 
-/*
+/**
  *_print_rev_recursion - A function that prints string in reverse
  *@s: character value
  *if statement: check for the end of string and add a new line
