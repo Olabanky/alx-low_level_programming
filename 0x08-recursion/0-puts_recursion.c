@@ -4,8 +4,8 @@
  *_puts_recursion - A function that prints a string followed by a new line
  *
  * @s: character value
- * if statement: increment the character
- * else: checks for end of string and add a new line
+ * if statement: checks for end of string and add a new line
+ * else: increment the character
  */
 
 void _puts_recursion(char *s)
