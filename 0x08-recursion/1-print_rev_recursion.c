@@ -6,9 +6,6 @@
  *if statement: check for the end of string and add a new line
  *else statement: prints each character in reversal
  */
-int main()
-{
-}
 void _print_rev_recursion(char *s)
 {
 	if (*s == '\0')
