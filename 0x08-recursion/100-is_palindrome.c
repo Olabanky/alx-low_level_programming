@@ -12,7 +12,7 @@ int range(char *s)
 	if (*s == '\0')
 		return (0);
 	else
-		return (++range(s + 1));
+		return (1 + range(s + 1));
 }
 
 
@@ -24,7 +24,7 @@ int range(char *s)
  *Return: 1 if palindrome, otherwise 0
  */
 
-int palindrome_checker(char *s int start, int end)
+int palindrome_checker(char *s, int start, int end)
 {
 	if (*(s + end) == *(s + start))
 		return (palindrome_checker(s, start + 1, end - 1));
